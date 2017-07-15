@@ -1,0 +1,78 @@
+html body{
+    padding: 0;
+    margin: 0;
+    background-color: #232323;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+.squares {
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: red;
+    border-radius: 15%;
+    float: left;
+    margin: 1.66%;
+    -webkit-transition: background-color 0.5s;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: skyblue;
+    -webkit-transition: background-color 0.8s;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.jumbotron h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+#strip {
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    height: 30px;
+}
+
+button{
+    background-color: white;
+    color: #4285F4;
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px solid white;
+    padding: 0 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+button:hover{
+    background-color: #4285F4;
+    color: white;
+}
+
+.mode {
+    float: right;
+}
+
+#newGame {
+    float: left;
+}
+
+.selected{
+  background-color: #071f2d;
+  color: white;
+}
+
+#text{
+  font-weight: bold;
+  color: #4285F4;
+  font-size: 28px;
+}
